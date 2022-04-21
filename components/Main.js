@@ -61,7 +61,7 @@ const Main = () => {
 
   const handleSubmit = async (e) => {
 
-    formData.Network = 1
+    formData.Network = 5
     formData.mintDateTime = _mintDateTime
 
     // console.log(`Current DataField: ${Object.keys(formData).forEach((prop)=> console.log(formData[prop]))}`)
